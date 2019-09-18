@@ -6,6 +6,6 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  var lastImage = $('div img:nth-last-of-type(2)')
+  var lastImage = $('div img').last();
   return lastImage;
 }
