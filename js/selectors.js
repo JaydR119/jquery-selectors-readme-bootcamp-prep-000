@@ -4,3 +4,8 @@ function paragraphSelector() {
   return paragraph;
 
 }
+
+function lastImageSelector() {
+  var lastImage = $('div img:nth-last-of-type(2)')
+  return lastImage;
+}
